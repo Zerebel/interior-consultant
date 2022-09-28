@@ -41,6 +41,7 @@
 ### Built With
 
 <!-- This section should list any major frameworks that you built your project using. Here are a few examples.-->
+
 - [Tailwind](https://tailwindcss.com/)
 
 ## Features
@@ -59,5 +60,5 @@ This application/site was created as a submission to a [DevChallenges](https://d
 
 ## Contact
 
-- GitHub [@your-username](https://{github.com/your-usermame})
-- Twitter [@your-twitter](https://{twitter.com/your-username})
+- GitHub [@Zerebel](https://github.com/Zerebel)
+- Twitter [@Zerebel\_](https://twitter.com/zerebel_)
