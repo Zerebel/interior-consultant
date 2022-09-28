@@ -21,7 +21,7 @@
   </head>
   <body class="bg-black text-white">
     <header class="m-4">
-      <nav class="flex justify-between lg:px-16">
+      <nav class="flex justify-between lg:px-16 md:px-12">
         <div
           class="uppercase border p-2 font-extralight leading-3 text-sm font-Crimson"
         >
@@ -43,7 +43,7 @@
       </nav>
       <div
         id="mobile-nav"
-        class="md:hidden absolute top-0 left-0 bg-black w-screen h-screen hidden"
+        class="md:hidden absolute top-0 left-0 bg-black w-screen h-screen hidden z-50 "
       >
         <button id="btnClose">
           <img
@@ -62,7 +62,37 @@
         </ul>
       </div>
     </header>
-    <main></main>
+    <main class="flex items-center md:h-screen md:px-8 md:flex-row flex-col gap-4 px-4">
+      <div class="flex flex-col gap-6 ">
+        <h1 class="font-lora font-medium text-4xl leading-10">
+          Modern interior
+        </h1>
+        <p class="font-Montserrat text-xl leading-7 font-normal">
+          A full-Service residential & commercial interior design and staging
+          company offering professional organizing & eco-services.
+        </p>
+        <span class="font-Montserrat text-sm leading-5 font-bold"
+          >Read more <span>&#8594</span> </span
+        >
+      </div>
+      <div class="flex relative isolate justify-start">
+       <img src="assets/img/photo1.png" alt="">      
+       <div class="absolute bg-black -bottom-16 md:-bottom-18 right-4 py-4 pr-20 pl-4">
+        <div class="flex flex-col gap-2">
+          <div class="flex items-center">
+          <img src="assets/img/photo2.png" alt="designer" class="h-10 w-10 rounded-full">
+          <p class="flex flex-col pl-4 gap-2">
+            <span class="font-Montserrat font-medium text-sm leading-3">Aliza Webber</span>
+            <span class="text-xs font-Montserrat font-medium leading-3 text-slate-700">Interior designer</span>
+          </p>
+          </div>
+          <div class="font-lora font-bold text-lg leading-7">
+            Designed in 2020 by <p>Aliza Webber</p>
+          </div>
+        </div>
+       </div>
+      </div>
+    </main>
     <script src="assets/js/index.js"></script>
   </body>
 </html>
