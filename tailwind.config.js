@@ -10,6 +10,9 @@ module.exports = {
         Crimson: ["Crimson Pro"],
         Montserrat: ["Montserrat"],
       },
+      minHeight: {
+        "web-avail": "calc(100vh - calc(100vh - 100%))",
+      },
     },
   },
   plugins: [],
