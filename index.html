@@ -5,8 +5,64 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
+    <link rel="stylesheet" href="assets/css/output.css" />
+    <link
+      href="https://fonts.googleapis.com/css?family=Crimson+Pro:200,300,regular,500,600,700,800,900,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Lora:regular,500,600,700,italic,500italic,600italic,700italic"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css?family=Montserrat:100,200,300,regular,500,600,700,800,900,100italic,200italic,300italic,italic,500italic,600italic,700italic,800italic,900italic"
+      rel="stylesheet"
+    />
   </head>
-  <body>
-  
+  <body class="bg-black text-white">
+    <header class="m-4">
+      <nav class="flex justify-between lg:px-16">
+        <div
+          class="uppercase border p-2 font-extralight leading-3 text-sm font-Crimson"
+        >
+          <span>this interior</span>
+        </div>
+        <button id="btnMenu">
+          <img src="assets/img/menu.svg" alt="menu" class="md:hidden" />
+        </button>
+        <div class="hidden md:flex">
+          <ul
+            class="md:inline-flex lg:gap-16 md:gap-12 font-Montserrat text-lg"
+          >
+            <li class="underline underline-offset-8">Home</li>
+            <li>Collection</li>
+            <li>About</li>
+            <li>Contact</li>
+          </ul>
+        </div>
+      </nav>
+      <div
+        id="mobile-nav"
+        class="md:hidden absolute top-0 left-0 bg-black w-screen h-screen hidden"
+      >
+        <button id="btnClose">
+          <img
+            src="assets/img/close.svg"
+            alt="close"
+            class="absolute right-4 top-4"
+          />
+        </button>
+        <ul
+          class="flex flex-col gap-8 font-Montserrat absolute top-2/4 left-2/4 -translate-x-2/4 -translate-y-2/4 text-lg font-medium leading-6"
+        >
+          <li>Home</li>
+          <li>Collection</li>
+          <li>About</li>
+          <li>Contact</li>
+        </ul>
+      </div>
+    </header>
+    <main></main>
+    <script src="assets/js/index.js"></script>
   </body>
 </html>

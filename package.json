@@ -1,7 +1,4 @@
 {
-  "devDependencies": {
-    "tailwindcss": "^3.1.8"
-  },
   "name": "interior-consultant",
   "description": "An interior consultant website homepage",
   "version": "1.0.0",
@@ -66,7 +63,7 @@
     "yaml": "^1.10.2"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "tail": "tailwindcss --watch -i ./assets/css/input.css -o ./assets/css/output.css"
   },
   "repository": {
     "type": "git",
@@ -85,5 +82,8 @@
   "bugs": {
     "url": "https://github.com/Zerebel/interior-consultant/issues"
   },
-  "homepage": "https://github.com/Zerebel/interior-consultant#readme"
+  "homepage": "https://github.com/Zerebel/interior-consultant#readme",
+  "devDependencies": {
+    "tailwindcss": "^3.1.8"
+  }
 }

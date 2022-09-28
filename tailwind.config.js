@@ -1,8 +1,16 @@
 /** @type {import('tailwindcss').Config} */
+const defaultTheme = require("tailwindcss/defaultTheme");
 module.exports = {
-  content: [],
+  content: ["./index.html", "./assets/**/*.js"],
   theme: {
-    extend: {},
+    extend: {
+      fontFamily: {
+        sans: ["Proxima Nova", ...defaultTheme.fontFamily.sans],
+        lora: ["Lora"],
+        Crimson: ["Crimson Pro"],
+        Montserrat: ["Montserrat"],
+      },
+    },
   },
   plugins: [],
-}
+};
