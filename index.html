@@ -19,7 +19,7 @@
       rel="stylesheet"
     />
   </head>
-  <body class="bg-black text-white">
+  <body class="bg-black text-white ">
     <header class="m-4">
       <nav class="flex justify-between lg:px-16 md:px-12">
         <div
@@ -62,7 +62,7 @@
         </ul>
       </div>
     </header>
-    <main class="flex items-center md:h-screen md:px-8 md:flex-row flex-col gap-4 px-4">
+    <main class="flex items-center md:h-screen md:px-8 lg:flex-row flex-col gap-4 px-4 mt-8 lg:mt-0">
       <div class="flex flex-col gap-6 ">
         <h1 class="font-lora font-medium text-4xl leading-10">
           Modern interior
@@ -75,9 +75,9 @@
           >Read more <span>&#8594</span> </span
         >
       </div>
-      <div class="flex relative isolate justify-start">
+      <div class="flex relative justify-start">
        <img src="assets/img/photo1.png" alt="">      
-       <div class="absolute bg-black -bottom-16 md:-bottom-18 right-4 py-4 pr-20 pl-4">
+       <div class="absolute bg-black -bottom-16 md:-bottom-18 right-4 py-4 pr-20 md:pr-32 pl-4">
         <div class="flex flex-col gap-2">
           <div class="flex items-center">
           <img src="assets/img/photo2.png" alt="designer" class="h-10 w-10 rounded-full">
@@ -93,6 +93,9 @@
        </div>
       </div>
     </main>
+    <footer class="mt-32 md:mt-0 text-center w-full">
+      <span>created by <a href="https://github.com/Zerebel" target="_blank" class="underline underline-offset-4 text-slate-500">Zerebel</a> - devChallenges.io</span>
+    </footer>
     <script src="assets/js/index.js"></script>
   </body>
 </html>
